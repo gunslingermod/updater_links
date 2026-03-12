@@ -5,7 +5,7 @@ size = 3030016
 
 [main]
 files_count=91
-maintenance = true
+maintenance = false
 options_count = 10
 
 [option_0]
@@ -70,7 +70,7 @@ groups = locale
 key = additional_weapons
 name_en = Additional Weapons (Z-M Weapons LR-300)
 name_ru = Дополнительное оружие (Z-M Weapons LR-300)
-groups = weapons
+groups = wpn_lr300
 
 
 ;/////////////////////////////////////////////////////////////////
@@ -574,7 +574,7 @@ desc_section=component_desc_mod_additional_weapons
 size=64515659
 crc32=1F6A07F4
 compression=2
-condition=weapons
+condition=additional_weapons
 
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
