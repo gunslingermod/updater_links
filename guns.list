@@ -5,7 +5,7 @@ size = 3030016
 
 [main]
 files_count=89
-maintenance = false
+maintenance = true
 options_count = 9
 
 [option_0]
