@@ -61,10 +61,10 @@ name_ru = Absolute Nature 4 от Cromm Cruac: Рыжий пак (внимани�
 groups = global, world_textures, level_textures, shaders, allspawn
 
 [option_8]
-key = english_locale
+key = twok
 name_en = Текстурный пак S.T.A.L.K.E.R. Two-K
 name_ru = S.T.A.L.K.E.R. Two-K texture pack
-groups = twok
+groups = textures_twok
 
 [option_9]
 key = english_locale
