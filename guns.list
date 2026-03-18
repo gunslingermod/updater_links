@@ -62,8 +62,8 @@ groups = global, world_textures, level_textures, shaders, allspawn
 
 [option_8]
 key = twok
-name_en = Текстурный пак S.T.A.L.K.E.R. Two-K
-name_ru = S.T.A.L.K.E.R. Two-K texture pack
+name_en = S.T.A.L.K.E.R. Two-K texture pack
+name_ru = Текстурный пак S.T.A.L.K.E.R. Two-K
 groups = textures_twok
 
 [option_9]
