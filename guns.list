@@ -4,9 +4,9 @@ md5 = 10C5F2D87BDD3E9E303F51AA4F0D2205
 size = 3030016   
 
 [main]
-files_count=92
+files_count=135
 maintenance = false
-options_count = 11
+options_count = 12
 
 [option_0]
 key = new_hands
@@ -62,17 +62,23 @@ groups = global, world_textures, level_textures, shaders, allspawn
 
 [option_8]
 key = english_locale
+name_en = Текстурный пак S.T.A.L.K.E.R. Two-K
+name_ru = S.T.A.L.K.E.R. Two-K texture pack
+groups = twok
+
+[option_9]
+key = english_locale
 name_en = Unofficial English localization
 name_ru = Неофициальная англоязычная локализация
 groups = locale
 
-[option_9]
+[option_10]
 key = weakened_burer
 name_en = Weakened burers
 name_ru = Ослабленные бюреры
 groups = weakened_burer
 
-[option_10]
+[option_11]
 key = additional_weapons
 name_en = Additional Weapons (Z-M Weapons LR-300)
 name_ru = Дополнительное оружие (Z-M Weapons LR-300)
@@ -156,12 +162,16 @@ description_en = Weapon textures
 description_ru = CGIM2
 description_en = CGIM2
 
+[component_desc_mod_twok]
+description_ru = Файлы S.T.A.L.K.E.R. Two-K
+description_en = S.T.A.L.K.E.R. Two-K files
+
 [component_desc_mod_additional_weapons]
 description_ru = Пак дополнительного оружия
 description_en = Additional weapons pack
 
 [component_desc_mod_tweaks]
-description_ru = Твики патаметров
+description_ru = Твики параметров
 description_en = Parameter tweaks
 
 ;/////////////////////////////////////////////////////////////////
@@ -592,24 +602,363 @@ desc_section=component_desc_mod_tweaks
 size=903
 crc32=D6A11BF4
 condition=weakened_burer
+[main]
+files_count=42
+[file_66]
+path=patches\guns_mod_twok_1.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_1.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=94374319
+crc32=9F9508CA
+[file_67]
+path=patches\guns_mod_twok_10.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_10.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=98938007
+crc32=E72DECEF
+[file_68]
+path=patches\guns_mod_twok_11.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_11.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=103457416
+crc32=46DD547D
+[file_69]
+path=patches\guns_mod_twok_12.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_12.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104093907
+crc32=AD5BFD9D
+[file_70]
+path=patches\guns_mod_twok_13.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_13.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104517288
+crc32=2D993281
+[file_71]
+path=patches\guns_mod_twok_14.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_14.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104006139
+crc32=8148DE56
+[file_72]
+path=patches\guns_mod_twok_15.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_15.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=90887144
+crc32=949A4F7D
+[file_73]
+path=patches\guns_mod_twok_16.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_16.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101047227
+crc32=6649392B
+[file_74]
+path=patches\guns_mod_twok_17.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_17.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101019373
+crc32=3C44B001
+[file_75]
+path=patches\guns_mod_twok_18.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_18.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=92980299
+crc32=6EEED2A7
+[file_76]
+path=patches\guns_mod_twok_19.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_19.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101115266
+crc32=54C47D6A
+[file_77]
+path=patches\guns_mod_twok_2.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_2.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=94727791
+crc32=3EE6501F
+[file_78]
+path=patches\guns_mod_twok_20.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_20.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=103296501
+crc32=2071C320
+[file_79]
+path=patches\guns_mod_twok_21.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_21.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=103992590
+crc32=F70106FC
+[file_80]
+path=patches\guns_mod_twok_22.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_22.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101374421
+crc32=3B4A57BF
+[file_81]
+path=patches\guns_mod_twok_23.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_23.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104079879
+crc32=06C73A3B
+[file_82]
+path=patches\guns_mod_twok_24.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_24.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=102017348
+crc32=9788F7BC
+[file_83]
+path=patches\guns_mod_twok_25.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_25.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=98143955
+crc32=24217BC5
+[file_84]
+path=patches\guns_mod_twok_26.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_26.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=96703639
+crc32=B02707C3
+[file_85]
+path=patches\guns_mod_twok_27.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_27.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104160986
+crc32=C97ADB1F
+[file_86]
+path=patches\guns_mod_twok_28.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_28.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101024575
+crc32=36422389
+[file_87]
+path=patches\guns_mod_twok_29.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_29.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104170929
+crc32=805507B9
+[file_88]
+path=patches\guns_mod_twok_3.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_3.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=102769692
+crc32=2A507BAB
+[file_89]
+path=patches\guns_mod_twok_30.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_30.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=103818602
+crc32=FD7E4CAA
+[file_90]
+path=patches\guns_mod_twok_31.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_31.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104167074
+crc32=F674F683
+[file_91]
+path=patches\guns_mod_twok_32.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_32.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104606412
+crc32=AC975F6F
+[file_92]
+path=patches\guns_mod_twok_33.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_33.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=96219565
+crc32=9D0911EC
+[file_93]
+path=patches\guns_mod_twok_34.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_34.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=99971516
+crc32=4F5AA7A7
+[file_94]
+path=patches\guns_mod_twok_35.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_35.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=103755030
+crc32=E55D576C
+[file_95]
+path=patches\guns_mod_twok_36.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_36.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104518316
+crc32=78A96AAD
+[file_96]
+path=patches\guns_mod_twok_37.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_37.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104515351
+crc32=844EACBE
+[file_97]
+path=patches\guns_mod_twok_38.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_38.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104867291
+crc32=1C03145C
+[file_98]
+path=patches\guns_mod_twok_39.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_39.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=97873354
+crc32=4C7B49CA
+[file_99]
+path=patches\guns_mod_twok_4.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_4.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=95430137
+crc32=D0A711AD
+[file_100]
+path=patches\guns_mod_twok_40.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_40.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=93334359
+crc32=0440E15B
+[file_101]
+path=patches\guns_mod_twok_41.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_41.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=104257034
+crc32=DA3E3280
+[file_102]
+path=patches\guns_mod_twok_42.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_42.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=52435393
+crc32=3F3276D2
+[file_103]
+path=patches\guns_mod_twok_5.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_5.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=98400742
+crc32=8F3096AC
+[file_104]
+path=patches\guns_mod_twok_6.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_6.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=96567028
+crc32=A18D2FB9
+[file_105]
+path=patches\guns_mod_twok_7.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_7.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=100321318
+crc32=A0DE07EE
+[file_106]
+path=patches\guns_mod_twok_8.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_8.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101197938
+crc32=7CB9792C
+[file_107]
+path=patches\guns_mod_twok_9.db
+url=https://raw.githubusercontent.com/gunslingermod/guns_twok/master/guns_mod_twok_9.db
+condition = twok
+desc_section=component_desc_mod_twok
+compression=2
+size=101808162
+crc32=95663DAF
+
 
 ;/////////////////////////////////////////////////////////////////
 ; Mutable gamedata stuff in patches, can be auto-generated
-[file_66]
+[file_108]
 path=patches\game_data_patch_1602.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/game_data_patch_1602.db
 desc_section=component_desc_mod_patch1602
 size=35199417
 crc32=EEE94EBA
 compression=2
-[file_67]
+[file_109]
 path=patches\guns_data_camanims.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_camanims.db
 desc_section=component_desc_mod_camanims
 size=1038049
 crc32=52CD8A25
 compression=2
-[file_68]
+[file_110]
 path=patches\guns_data_hands.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands.db
 desc_section=component_desc_mod_hands
@@ -617,161 +966,161 @@ size=74517054
 crc32=787E72CC
 condition = !new_hands
 compression=2
-[file_69]
+[file_111]
 path=patches\guns_data_meshes.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes.db
 desc_section=component_desc_mod_meshes
 size=26221361 
 crc32=FE8B96AB
 compression=2
-[file_70]
+[file_112]
 path=patches\guns_data_meshes_af.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_af.db
 desc_section=component_desc_mod_meshes
 size=60629588
 crc32=823CDC75
 compression=2
-[file_71]
+[file_113]
 path=patches\guns_data_meshes_gl.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_gl.db
 desc_section=component_desc_mod_meshes
 size=43404202
 crc32=35F7B7BA
 compression=2
-[file_72]
+[file_114]
 path=patches\guns_data_meshes_mr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_mr.db
 desc_section=component_desc_mod_meshes
 size=32440906
 crc32=324DE3A9
 compression=2
-[file_73]
+[file_115]
 path=patches\guns_data_meshes_ss.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_ss.db
 desc_section=component_desc_mod_meshes
 size=59230546
 crc32=E505172D
 compression=2
-[file_74]
+[file_117]
 path=patches\guns_data_meshes_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_tz.db
 desc_section=component_desc_mod_meshes
 size=38508002 
 crc32=5D0C1CA7
 compression=2
-[file_75]
+[file_118]
 path=patches\guns_data_meshes_wpn.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_meshes_wpn.db
 desc_section=component_desc_mod_meshes
 size=7912367
 crc32=1344E078
 compression=2
-[file_76]
+[file_119]
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
 size=8998203
 crc32=DD97EDF3
 compression=2
-[file_77]
+[file_120]
 path=patches\guns_data_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_resources.db
 desc_section=component_desc_mod_core_resources
 size=1781090
 crc32=C4C0B531
 compression=2
-[file_78]
+[file_121]
 path=patches\guns_data_sounds.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_sounds.db
 desc_section=component_desc_mod_sounds
 size=19976818
 crc32=9C6FF167
 compression=2
-[file_79]
+[file_122]
 path=patches\guns_data_textures_common.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_common.db
 desc_section=component_desc_mod_core_textures
 size=118981818
 crc32=9C5794C7
 compression=2
-[file_80]
+[file_123]
 path=patches\guns_data_textures_wpn_ad.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_ad.db
 desc_section=component_desc_mod_weapon_textures
 size=68019517
 crc32=B7466C96
 compression=2
-[file_81]
+[file_124]
 path=patches\guns_data_textures_wpn_fg.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_fg.db
 desc_section=component_desc_mod_weapon_textures
 size=90025853
 crc32=DA3E38A7
 compression=2
-[file_82]
+[file_125]
 path=patches\guns_data_textures_wpn_hp.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_hp.db
 desc_section=component_desc_mod_weapon_textures
 size=65895535
 crc32=B75E0059
 compression=2
-[file_83]
+[file_126]
 path=patches\guns_data_textures_wpn_rs.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_rs.db
 desc_section=component_desc_mod_weapon_textures
 size=89931000
 crc32=97E85B29
 compression=2
-[file_84]
+[file_127]
 path=patches\guns_data_textures_wpn_tw.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_tw.db
 desc_section=component_desc_mod_weapon_textures
 size=41428331
 crc32=1BDBFB16
 compression=2
-[file_85]
+[file_128]
 path=patches\guns_data_textures_wpn_wpn_ag.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ag.db
 desc_section=component_desc_mod_weapon_textures
 size=133266733
 crc32=486F7BDC
 compression=2
-[file_86]
+[file_129]
 path=patches\guns_data_textures_wpn_wpn_hk.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_hk.db
 desc_section=component_desc_mod_weapon_textures
 size=52874515
 crc32=C1CA20D9
 compression=2
-[file_87]
+[file_130]
 path=patches\guns_data_textures_wpn_wpn_lm.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_lm.db
 desc_section=component_desc_mod_weapon_textures
 size=91331079
 crc32=824B0895
 compression=2
-[file_88]
+[file_131]
 path=patches\guns_data_textures_wpn_wpn_pr.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_pr.db
 desc_section=component_desc_mod_weapon_textures
 size=104864661
 crc32=F5546478
 compression=2
-[file_89]
+[file_132]
 path=patches\guns_data_textures_wpn_wpn_ss1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss1.db
 desc_section=component_desc_mod_weapon_textures
 size=202395973
 crc32=F6368E37
 compression=2
-[file_90]
+[file_133]
 path=patches\guns_data_textures_wpn_wpn_ss2.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_ss2.db
 desc_section=component_desc_mod_weapon_textures
 size=85289725
 crc32=7930A300
 compression=2
-[file_91]
+[file_134]
 path=patches\guns_data_textures_wpn_wpn_tz.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_textures_wpn_wpn_tz.db
 desc_section=component_desc_mod_weapon_textures
