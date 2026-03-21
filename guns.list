@@ -5,7 +5,7 @@ size = 3030016
 
 [main]
 files_count=134
-maintenance = false
+maintenance = true
 options_count = 12
 
 [option_0]
@@ -1019,8 +1019,8 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=8998203
-crc32=DD97EDF3
+size=9025034
+crc32=8AEA575C
 compression=2
 [file_119]
 path=patches\guns_data_resources.db
