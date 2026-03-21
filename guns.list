@@ -357,8 +357,8 @@ crc32=1BEAF462
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
-size=341504 
-crc32=1CB5DD13
+size=342016
+crc32=C6F98B65
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
@@ -540,8 +540,8 @@ condition = an4_rotten
 path=patches\guns_mod_unofficial_food.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_unofficial_food.db
 desc_section=component_desc_mod_unofficial_food
-size=9718790
-crc32=F81BEB99
+size=9718775
+crc32=A9F3A10F
 compression = 2
 condition = unofficial_food
 [file_57]
