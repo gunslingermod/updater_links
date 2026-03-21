@@ -358,7 +358,7 @@ path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
 size=342016
-crc32=C6F98B65
+crc32=57A13EC2
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
@@ -591,16 +591,16 @@ condition=cgim2
 path=patches\guns_mod_additional_weapon.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_additional_weapon.db
 desc_section=component_desc_mod_additional_weapons
-size=64524414
-crc32=4E8889DA
+size=64524425
+crc32=97FEA4B0
 compression=2
 condition=additional_weapons
 [file_65]
 path=patches\guns_mod_weakened_burer.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_weakened_burer.db
 desc_section=component_desc_mod_tweaks
-size=903
-crc32=D6A11BF4
+size=1278
+crc32=95F36908
 condition=weakened_burer
 [main]
 files_count=42
@@ -1019,8 +1019,8 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=9025034
-crc32=8AEA575C
+size=9025126
+crc32=DA81115B
 compression=2
 [file_119]
 path=patches\guns_data_resources.db
