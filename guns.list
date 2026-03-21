@@ -591,8 +591,8 @@ condition=cgim2
 path=patches\guns_mod_additional_weapon.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_additional_weapon.db
 desc_section=component_desc_mod_additional_weapons
-size=64524425
-crc32=97FEA4B0
+size=64524517
+crc32=C44B45C2
 compression=2
 condition=additional_weapons
 [file_65]
