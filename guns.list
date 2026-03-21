@@ -548,8 +548,8 @@ condition = unofficial_food
 path=patches\guns_mod_differentslots.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_differentslots.db
 desc_section=component_desc_mod_differentslots
-size=2994   
-crc32=A97BE31D
+size=271   
+crc32=6ABB7F50
 condition = different_slots
 [file_58]
 path=patches\guns_mod_locale_eng.db
