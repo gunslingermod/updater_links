@@ -357,8 +357,8 @@ crc32=1BEAF462
 path=bin\gunslinger_wpnpatch.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/gunslinger_wpnpatch.dll
 desc_section=component_desc_engine_patch
-size=342016
-crc32=3D99700B
+size=343040
+crc32=BBB82751
 
 ;/////////////////////////////////////////////////////////////////
 ; Launcher & uninstaller
@@ -1019,8 +1019,8 @@ compression=2
 path=patches\guns_data_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_plaintext.db
 desc_section=component_desc_mod_plaintext
-size=9025126
-crc32=DA81115B
+size=9026397
+crc32=1DA65064
 compression=2
 [file_119]
 path=patches\guns_data_resources.db
