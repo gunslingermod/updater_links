@@ -81,7 +81,7 @@ groups = weakened_burer
 [option_11]
 key = additional_weapons
 name_en = Additional Unofficial  Weapons
-name_ru = Дополнительное неофоциальное оружие
+name_ru = Дополнительное неофициальное оружие
 groups = lr300, rg6, sks
 
 
