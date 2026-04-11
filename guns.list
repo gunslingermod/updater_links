@@ -80,9 +80,9 @@ groups = weakened_burer
 
 [option_11]
 key = additional_weapons
-name_en = Additional Weapons (Z-M Weapons LR-300)
-name_ru = Дополнительное оружие (Z-M Weapons LR-300)
-groups = wpn_lr300
+name_en = Additional Unofficial  Weapons
+name_ru = Дополнительное неофоциальное оружие
+groups = lr300, rg6, sks
 
 
 ;/////////////////////////////////////////////////////////////////
