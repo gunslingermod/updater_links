@@ -401,9 +401,13 @@ delete=true
 [file_39]
 path=patches\guns_mod_differentslots.db
 delete=true
+[file_40]
+path=patches\guns_mod_additional_weapon.db
+delete=true
+
 ;/////////////////////////////////////////////////////////////////
 ; Optional and additional files
-[file_40]
+[file_41]
 path=patches\guns_data_hands_new_part1.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part1.db
 desc_section=component_desc_mod_hands
@@ -411,7 +415,7 @@ size=137355987
 crc32=0B4FF43F
 compression = 2
 condition = new_hands
-[file_41]
+[file_42]
 path=patches\guns_data_hands_new_part2.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_data_hands_new_part2.db
 desc_section=component_desc_mod_hands
@@ -419,13 +423,13 @@ size=109328087
 crc32=2845C471
 compression = 2
 condition = new_hands
-[file_42]
+[file_43]
 path=bin\proxy.dll
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/bin/proxy.dll
 size=381952   
 crc32=A445AF77
 condition = need_proxy
-[file_43]
+[file_44]
 path=patches\guns_mod_an4_core_levels_jupiter1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_jupiter1.db
 desc_section=component_desc_mod_an4_core
@@ -433,7 +437,7 @@ size=125979557
 crc32=9F5431D6
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_44]
+[file_45]
 path=patches\guns_mod_an4_core_levels_jupiter2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_jupiter2.db
 desc_section=component_desc_mod_an4_core
@@ -441,7 +445,7 @@ size=140036315
 crc32=B03B1613
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_45]
+[file_46]
 path=patches\guns_mod_an4_core_levels_pripyat1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_pripyat1.db
 desc_section=component_desc_mod_an4_core
@@ -449,7 +453,7 @@ size=106759648
 crc32=7303C39D
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_46]
+[file_47]
 path=patches\guns_mod_an4_core_levels_pripyat2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_pripyat2.db
 desc_section=component_desc_mod_an4_core
@@ -457,7 +461,7 @@ size=148117529
 crc32=52E39C64
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_47]
+[file_48]
 path=patches\guns_mod_an4_core_levels_zaton1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_zaton1.db
 desc_section=component_desc_mod_an4_core
@@ -465,7 +469,7 @@ size=145429025
 crc32=967099A9
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_48]
+[file_49]
 path=patches\guns_mod_an4_core_levels_zaton2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_levels_zaton2.db
 desc_section=component_desc_mod_an4_core
@@ -473,7 +477,7 @@ size=138205203
 crc32=2F1BB764
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_49]
+[file_50]
 path=patches\guns_mod_an4_core_resources.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_resources.db
 desc_section=component_desc_mod_an4_core
@@ -481,7 +485,7 @@ size=30726945
 crc32=345D222A
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_50]
+[file_51]
 path=patches\guns_mod_an4_core_textures1.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures1.db
 desc_section=component_desc_mod_an4_core
@@ -489,7 +493,7 @@ size=124445726
 crc32=3AC61380
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_51]
+[file_52]
 path=patches\guns_mod_an4_core_textures2.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures2.db
 desc_section=component_desc_mod_an4_core
@@ -497,7 +501,7 @@ size=162728514
 crc32=569CECFD
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_52]
+[file_53]
 path=patches\guns_mod_an4_core_textures3.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_core_textures3.db
 desc_section=component_desc_mod_an4_core
@@ -505,7 +509,7 @@ size=210262698
 crc32=D474FCBB
 compression = 2
 condition = an4_default | an4_green | an4_autumn | an4_rotten
-[file_53]
+[file_54]
 path=patches\guns_mod_an4_set_default.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_default.db
 desc_section=component_desc_mod_an4_set
@@ -513,7 +517,7 @@ size=163873477
 crc32=8BE5B39E
 compression = 2
 condition = an4_default
-[file_54]
+[file_55]
 path=patches\guns_mod_an4_set_green.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_green.db
 desc_section=component_desc_mod_an4_set
@@ -521,7 +525,7 @@ size=166932379
 crc32=2170B965
 compression = 2
 condition = an4_green
-[file_55]
+[file_56]
 path=patches\guns_mod_an4_set_autumn.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_autumn.db
 desc_section=component_desc_mod_an4_set
@@ -529,7 +533,7 @@ size=164135975
 crc32=AB69242A
 compression = 2
 condition = an4_autumn
-[file_56]
+[file_57]
 path=patches\guns_mod_an4_set_rotten.db
 url=https://raw.githubusercontent.com/gunslingermod/guns_an4/master/packed/guns_mod_an4_set_rotten.db
 desc_section=component_desc_mod_an4_set
@@ -537,7 +541,7 @@ size=164136172
 crc32=FACBDA2C
 compression = 2
 condition = an4_rotten
-[file_57]
+[file_58]
 path=patches\guns_mod_unofficial_food.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_unofficial_food.db
 desc_section=component_desc_mod_unofficial_food
@@ -545,50 +549,42 @@ size=9718775
 crc32=A9F3A10F
 compression = 2
 condition = unofficial_food
-[file_58]
+[file_59]
 path=patches\guns_mod_locale_eng.db
 url=https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.db
 desc_section=component_desc_mod_locale_eng
 params_url = https://raw.githubusercontent.com/gunslingermod/locale_eng/master/guns_mod_locale_eng.ini
 condition = english_locale
-[file_59]
+[file_60]
 path=patches\guns_mod_cgim2_plaintext.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_plaintext.ini
 condition=cgim2
-[file_60]
+[file_61]
 path=patches\guns_mod_cgim2_textures1.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures1.ini
 condition=cgim2
-[file_61]
+[file_62]
 path=patches\guns_mod_cgim2_textures2.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures2.ini
 condition=cgim2
-[file_62]
+[file_63]
 path=patches\guns_mod_cgim2_textures3.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures3.ini
 condition=cgim2
-[file_63]
+[file_64]
 path=patches\guns_mod_cgim2_textures4.db
 url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.db
 desc_section=component_desc_mod_cgim2
 params_url=https://raw.githubusercontent.com/gunslingermod/cgim2/master/guns_addon_cgim2_textures4.ini
 condition=cgim2
-[file_64]
-path=patches\guns_mod_additional_weapon.db
-url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_additional_weapon.db
-desc_section=component_desc_mod_additional_weapons
-size=64524517
-crc32=C44B45C2
-compression=2
-condition=additional_weapons
 [file_65]
 path=patches\guns_mod_weakened_burer.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_weakened_burer.db
