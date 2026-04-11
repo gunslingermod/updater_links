@@ -942,8 +942,8 @@ crc32=D16DAA78
 path=patches\guns_mod_ammo_762x39.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_ammo_762x39.db
 desc_section=component_desc_mod_additional_weapons
-size=204982
-crc32=23706E33
+size=357243
+crc32=3DBA2CBE
 compression=2
 condition=additional_weapons
 [file_110]
@@ -958,16 +958,16 @@ condition=additional_weapons
 path=patches\guns_mod_wpn_rg6_unoff.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_wpn_rg6_unoff.db
 desc_section=component_desc_mod_additional_weapons
-size=10268233
-crc32=E8F025E4
+size=20130826
+crc32=D8ACC93E
 compression=2
 condition=additional_weapons
 [file_112]
 path=patches\guns_mod_wpn_sks.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_wpn_sks.db
 desc_section=component_desc_mod_additional_weapons
-size=63076950
-crc32=05D18B5F
+size=100058099
+crc32=68CED72C
 compression=2
 condition=additional_weapons
 
