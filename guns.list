@@ -950,8 +950,8 @@ condition=additional_weapons
 path=patches\guns_mod_wpn_lr300_unoff.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_wpn_lr300_unoff.db
 desc_section=component_desc_mod_additional_weapons
-size=64524383
-crc32=401E538E
+size=64524401
+crc32=02D23B39
 compression=2
 condition=additional_weapons
 [file_111]
@@ -966,8 +966,8 @@ condition=additional_weapons
 path=patches\guns_mod_wpn_sks.db
 url=https://raw.githubusercontent.com/gunslingermod/mod_data/master/patches/guns_mod_wpn_sks.db
 desc_section=component_desc_mod_additional_weapons
-size=100058099
-crc32=68CED72C
+size=100058094
+crc32=F8B29D3A
 compression=2
 condition=additional_weapons
 
